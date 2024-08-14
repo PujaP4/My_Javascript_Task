@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <!-- form -->
+        <h2>FORM</h2>
+        <!-- Horizontal line -->
+        <hr style="height: 2px"> 
+
+            <div>
+                <label for="name">Full Name</label>
+                <div>
+                    <input class="name" type="text" placeholder="Enter your name" required>
+                </div>
+            </div>
+        <div>
+            <label for="password">Passowrd</label>
+            <div>
+                <input class="password" type="password" placeholder="Enter your password" >
+                <i class="far fa-eye" id="togglePassword" style="margin-left: -30px; cursor: pointer;"></i>    
+            </div>
+        </div>
+        <div>
+            <label for="email">Email ID</label>
+            <div>
+                <input type="email" id="email" name="email" placeholder="Enter your email ID" required/>
+            </div>
+        </div>
+        <label for="country">India</label>
+        <input type="checkbox" id="country" value>
+        <label for="country">Bangladesh</label>
+        <input type="checkbox" name="Country" id="Country">
+        <label for="country">Nepal</label>
+        <input type="checkbox" name="Country" id="Country">
+        <br>
+        <label for="gender">Male</label>
+        <input type="radio" name="gender" id="gender">
+        <label for="gender">Female</label>
+        <input type="radio" name="gender" id="gender">
+        <label for="gender">Female</label>
+        <input type="radio" name="gender1" id="gender1">
+
+        <!-- When same name/id in radio input then any one can select and of diff then can select all radio button -->
+        <br>
+        <label for="favColor">Favorite Color</label>
+        <input type="color" name="favColor" id="favColor">
+        <br>
+        <label for="favColor">Telephone/mob num</label>
+        <input type="tel" name="mobNum" id="favColor">
+        <br>
+        <br>
+        <label for="file">Upload resume</label>
+        <input type="file" name="file" id="file">
+        <br>
+        <br>
+        <label for="search">Search</label>
+        <input type="search" name="search" id="search">
+        <br>
+        <br>
+        <input type="number" placeholder="Enter Mobile Number" required/>
+        <input type="date" placeholder="Enter DOB">
+
+        <div style="padding-top: 10px;">
+            <button type="button" aria-placeholder="Login">Submit</button>
+        </div>
+
+        <!-- Block and inline -->
+        <h1></h1>..to..<h6"></h6>are block elment
+        <span>Inline element- which does not take full area</span>
+        <br>
+
+        <!-- Break  - to break the element area -->
+
+        <input type="number" placeholder="Enter Mobile Number" required/>
+        <br>
+        <input type="date" placeholder="Enter DOB"/>
+        <br>
+
+        <!-- dropdown select -->
+        <label for="city">Select City</label>
+        <select name="city">
+            <option value="Nagpur">Nagpur</option>
+            <option value="Pune">Pune</option>
+
+        </select>
+
+
+        <br>
+        <label for="description">Description</label>
+        <textarea name="description" cols="10" rows="2">Describe</textarea>
+
+        <!-- fieldset in FORM -->
+        <h3>FORM</h3>
+        <form>
+            <fieldset>
+                <input type="text" placeholder="input"/>
+            </fieldset>
+        </form>
+
+         <!-- datalist - same as select-->
+         <form >
+            <label for="browser">Select city</label>
+            <input list="browser" name="browser" id="city">
+
+            <datalist id="browser">
+                <option value="Pune">Pune</option>
+                <option value="Nagpur">Nagpur</option>
+                <option value="Bhopal">Bhopal</option>
+            </datalist>
+         </form> 
+         <br>
+         <br>
+        
+    </body>
+
+    
+</html>

@@ -1,0 +1,25 @@
+/* Box Model - padding, border, margin, box-sizing */
+
+.box{
+    width: 200px;
+    height: 200px;
+    /* border-color: red;
+    border-width: 2px;
+    border-style: solid; */
+    /* short hand for above three properties */
+    border: 2px solid rebeccapurple;
+    padding: 30px; /* area between content(blue color) and border */
+    margin:50px; /* Area after Border or area between two adjucent element after their border*/
+
+    /* When we hover on content , it show area (height and widtg) which includes 
+    content+border+padding . To consider only emelent area we can use bewlo property*/
+    box-sizing: content-box; 
+    /* box-sizing: border-box;  *//* will consider  content+border+padding*/
+    outline: 2px solid red;
+}
+
+.img{
+    width: 100px;
+    height: 100px;
+   border-radius: 50%;   /* To make boder circular */
+}

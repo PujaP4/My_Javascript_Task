@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap');
+
+
+*{
+    padding: 0;
+    width: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Anek Devanagari", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+
+}
+
+img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;  /* no crop - to adjust image completly in given height width*/
+}
+
+.container{
+    height: 440px;
+    width: 400px;
+    overflow: hidden;  /*Will crop image after defined height width*/ 
+}
+
+.image-container{
+    display: flex;
+    transform: translate(0);
+    justify-content: space-between;
+    /* padding: 5px 0; */
+    transition: transform 0.5s ease-in-out; /*will move slowly*/
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    pad: 5px 0;
+}
+
+.btn{
+    border:none; 
+    padding: 7px, 10px;
+    background-color: black;
+    color: white;
+    cursor:  pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

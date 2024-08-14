@@ -1,0 +1,80 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+}
+
+
+/* main class */
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+/* main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+} */
+
+.container .nav{
+    width: 20vw;
+    height: 110vh;
+    background-color: blue;
+    border: 2px solid black;
+}
+
+.container .header{
+    width: 80vw;
+    height: 20vh;
+    background-color: rebeccapurple;
+    align-items:start;
+    border: 2px solid black;
+}
+
+
+.middleCard{
+    display: flex;
+    width: 80vw;
+    height: 30vh;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+
+.middleCard .mcard{
+    width: 80vw;
+    height: 30vh;
+    background-color: pink;
+    border: 2px solid black;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-evenly;
+    column-gap:10px;
+}
+
+.bcard{
+    width: 50vw;
+    height: 30vh;
+    background-color: skyblue;
+    border: 2px solid black;
+}
+
+.sideCard{
+    display: flex;
+    justify-content: space-evenly;
+    column-gap:10px;
+    width: 30vw;
+    height: 60vh;
+    background-color: greenyellow;
+    border: 2px solid black;
+}
+
+

@@ -1,0 +1,92 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background: gray;
+    gap:10px;
+}
+
+.nav{
+    flex:1.5;
+    background: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    flex: 5.5;
+    /* background: skyblue; */
+    display: flex;
+    /* to chnage the flex direction into columns */
+    flex-direction: column;
+    gap: 10px;
+}
+
+.header{
+    padding: 25px;
+    background: darkmagenta;
+    text-align: center;
+    /* padding:10px; */
+    /* display: flex;
+    justify-content: center; */
+    border-radius: 5%;
+
+}
+
+.middleCard{
+    background: gray;
+    display: flex;
+    justify-content:space-between;
+    column-gap:10px;
+    height: 150px;
+    /* padding: 5px; */
+}
+
+.mcard{
+    background: violet;
+    flex:1;
+    text-align: center;
+    display: flex;
+    align-items:center; 
+    justify-content: center;
+    border-radius: 10%;
+}
+
+.bottom{
+    flex:3;
+    display: flex;
+    gap:10px;
+}
+
+.bottomCard{
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+
+}
+
+.bcard{
+    background: rgb(238, 155, 155);
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+
+.sideCard{
+    background:pink ;
+    flex:4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}

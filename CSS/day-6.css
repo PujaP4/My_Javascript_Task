@@ -1,0 +1,79 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.box{
+    background-color: blue;
+    display: inline-block;
+}
+
+span{
+    font-size: xx-large;
+    background-color: red;
+    display: block;
+}
+
+.parent{
+    width: 50vw;
+    height:50vh;
+    border: 1px solid red;
+
+    /* will bring elements in one line */
+    display: flex; 
+    /* To handle element horizontally */
+    /* justify-content: space-around; */
+    justify-content: space-between;
+    /* justify-content:space-evenly; */
+    /* justify-content: center; */
+    /* To hanlde element Vertically */
+    align-items: center;
+    /* To wrap in new line */
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+
+
+    /* To add gap in row columns */
+    /* row-gap: 3px;
+    column-gap: 3px; */
+    /* Short hand for gap */
+    gap:10px;
+    flex-direction: column;
+}
+
+.child{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    /* devides the page */
+    /* flex: 8;
+    background:rebeccapurple; */
+
+}
+
+/* short hand for padding */
+/* padding : top, right, bottom, left (clickwise) - for 4 values*/
+/* padding : top-bottomm, left-right   - for two values*/
+
+.avtar{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avtar img{
+    width: 90%;
+    height: 90%;
+    /* to fit the image in the defined with and height */
+    /* object-fit: fill; */
+    /* crop the image */
+    object-fit: cover; 
+    border-radius: 50%;
+
+}
+
+/* Frontendmentor.io */

@@ -1,0 +1,27 @@
+/* Inline style */
+/* Internal style */
+/* External style */
+
+/* ..............Priority of styling with tags ----->  inline >> id >> class >> tag  ..................*/
+/* Specificty !important > inline>id>class>tag*/
+/* universal selector */
+/* selector - ID(#), CLASS(.), Universal(*) */
+
+*{
+    background-color: bisque;
+}
+
+p {
+    background-color: red !important; /*!important - when written with any element, then that property will get applied*/
+  }
+
+/* Class */
+.style{
+    color: blueviolet;
+}
+
+/* id */
+#idValue{
+
+}
+

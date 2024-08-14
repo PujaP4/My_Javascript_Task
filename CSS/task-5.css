@@ -1,0 +1,66 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    color: red;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 50px 1fr; /*fr - fractional usnit  - fraction of entire width or height*/
+    grid-template-columns: 1fr 7fr; /*Use this*/
+}
+
+.header{
+    grid-column: span 2;
+    width:100vw;
+    background: darkblue;
+}
+
+.left{
+    background: gray;
+    /* width: 300px; */  /*Avoid to use this*/
+}
+
+.content{
+    background: white;
+    display: grid;
+    grid-template-rows: 200px 1fr;
+}
+
+.child1{
+    background: lightcoral;
+    /* grid-column: span 2; */
+}
+
+.middle{
+    display: grid;
+    grid-template-columns: 500px 1fr;
+    /* height: calc(100vh-100px); */
+    grid-template: subgrid;
+}
+.middle .child2{
+    background: lightgoldenrodyellow;
+    /* height: 350px; */
+}
+.middle .child3{
+    background: lightpink;
+}
+
+.bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.child4{
+    background: lightgrey;
+}
+.child5{
+    background: lightsalmon;
+}
+
+

@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+body{
+    color: red;
+}
+
+.main{
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+
+.header{
+    flex: 0.05;
+    /* height: 10%; */
+    background: darkblue;
+}
+
+.middle{
+    display: flex;
+    flex: 1;
+    width: 25%;
+}
+
+.left{
+    flex: 1;
+    background: gray;
+}
+
+.content{
+    flex: 1;
+    height: 50px;
+    width:auto;
+    background: white;
+}

@@ -1,0 +1,82 @@
+.container{
+    width:700px;
+    height:700px;
+    display: grid;
+    border: 2px solid black;
+
+    /* can be in percent individual value for individual column */
+    /* grid-template-columns: 500px 500px 500px;
+    grid-template-rows: 500px 500px; */
+   
+    /* to repeate */
+    /* grid-template-columns: repeat(5,20%);
+    grid-template-rows: repeat(5,20%); */
+
+    /* to bring child in center*/
+    place-content: center;
+}
+
+
+
+.child{
+    border: 2px solid red;
+    
+}
+
+#dark{
+    background: black;
+    grid-column-start: 1; 
+    /* we can write like*/
+    /* grid-column-start: span 1;  */
+    /* include +1 to cover columns as per your requirment to cover 4 mention 5 */
+    grid-column-end: 2;
+    grid-row-start: 1;
+    /* include +1 to cover columns as per your requirment to cover 4 mention 5 */
+    grid-row-end: 2;
+
+    /* short hand */
+    /* grid-column: 1/4;
+    grid-row: 1/3; */
+
+}
+
+/* #table{
+    grid-column: 3/6;
+    grid-row: 2/2;
+    background-color: blueviolet;
+} */
+
+#chart{
+    grid-column: 3/6;
+    grid-row: 2/2;
+    background-color: blueviolet;
+}
+
+.imageProperty{
+
+}
+
+.banner{
+    width:100vw;
+    height:100vh;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Einstein_1921_by_F_Schmutzer_-_restoration.jpg/220px-Einstein_1921_by_F_Schmutzer_-_restoration.jpg');
+    /* to bring image in cenetr */
+    background-position: center;
+    /* do not repeate image */
+    background-repeat: no-repeat;
+    /* cover size in the page */
+    background-size: cover;
+ 
+}
+
+
+.boxes{
+    width:100%;
+    height:100px;
+    background: linear-gradient(0deg, #ff000032, rgba(255, 255, 0, 0.3)), url('/imageDocument/images.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+/* Practice - cssgridgarden.com */

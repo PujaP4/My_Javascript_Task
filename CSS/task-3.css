@@ -1,0 +1,77 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+.Main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    
+}
+.sections{
+
+}
+
+.header-Class{
+    position: fixed;
+}
+
+.header{
+    width: 100vw;
+    padding: 20px;
+    background: blue;
+}
+
+.nav{
+    position: fixed;
+    z-index: -1;
+}
+.left-nav{
+    padding-top: 58px;
+    height: 100vh;
+    width: 22vw;
+    background: gainsboro;
+}
+
+.icon{
+
+}
+
+.logo{
+ padding-left: 20px;
+}
+
+
+.admin{
+    padding-left: 55%;
+}
+
+.extra {
+    padding-left: 20px;
+}
+
+.search{
+    margin:10px;
+    margin-left: 12px;
+    padding: 6px;
+    margin-bottom: 20px;
+}
+
+.option{
+    padding:12px;
+    width: 22vw;
+    margin:2px;
+    background: lightblue;
+    line-height: 22px;
+}
+
+a:hover{
+    color: rgb(255, 0, 38);
+    padding:12px;
+    width: 22vw;
+}

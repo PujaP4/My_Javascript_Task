@@ -1,0 +1,81 @@
+
+/* units */
+
+/* Absolute unit - px, cm,inch,.. etc. */
+/* relative units - %, rem (rootelement), em, vh(viewport height). vw(viewport width */
+
+/* root element - rem */
+html{
+    /* 16px is defualt  */
+    font-size: 2rem;
+}
+/* vh/vw - will be as per the page simply percentage of page */
+/* em - it depends on the parent if parent is 16px then em for child will be 1 em i.e 16px = 1em, 2em=32px and so on, 
+we can change this default value to 32px or etc and them that becomes 1 em */
+
+.parent{
+    font-size: 32px;
+}
+
+.parent #child{
+    font-size: 3em;
+}
+
+.color{
+    color: rgb(0,0,0,0.5);
+    color: #000;
+    /* color: hsl(hue, saturation, lightness) */
+    /* color: hsl(0 to 360, in %, in %) */
+    color: hsl(235, 68%, 46%)
+}
+
+/* colors */
+/* rgb (r,g,b, alpha) - alpha - opacity 0 to 1 */
+/* Hex  - hexadecimal*/
+/* HSL - */
+/* Colorhunt.io */
+
+.banner{
+    width:100%;
+    height:500px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Einstein_1921_by_F_Schmutzer_-_restoration.jpg/220px-Einstein_1921_by_F_Schmutzer_-_restoration.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.navigation{
+    padding: 15px;
+    background: black;
+    /* margin-top: 50px; */
+    position:fixed;
+    top:0;
+    width:100%;
+    
+}
+
+.navigation a{
+    color: white;
+    
+}
+
+/* Pseudo elements */
+
+#para::first-letter{
+    color:red
+}
+
+/* used for list elemennts */
+::marker{
+    color: green
+}
+
+.anchor::after{
+    content: "*";
+}
+
+.anchor::before{
+    content: "#";
+}
+

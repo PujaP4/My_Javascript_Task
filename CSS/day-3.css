@@ -1,0 +1,115 @@
+/* *{
+    background-color:rgb(3, 11, 27);
+    color: white;
+} */
+
+.box{
+    /* color: red; */
+    width: 200px;
+    height:200px;
+    border: 2px solid white
+}
+
+.text{
+    color: aquamarine;
+}
+
+/* typography  - Text properties*/
+
+.title{
+    color: red;
+    text-align: Center;
+    text-decoration:underline; /*mostly usefull for anchor tag*/
+    text-transform: capitalize;
+    text-shadow: 5px 5px rgb(210, 227, 192);
+    letter-spacing: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bolder;
+    font-size: 50px;
+    
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+.text-align-left{
+    text-align: let;
+}
+
+.text-align-right{
+    text-align: right;
+}
+
+.description{
+    color: black;
+    text-align: left;
+    word-spacing:15px;
+    /* letter-spacing: 20px; */
+    text-indent: 30px; /* to add paragrapgh*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* parent class - link and child - anchor tag - to apply properties using parent to the child element of mentioned tag after parent class */
+
+
+.links{
+    word-spacing: 10px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+
+.links a{
+    text-decoration: none;
+    color: red;
+}
+
+/* Psudo class or elements */
+
+.links a:hover{
+    border: 1px solid red;
+    padding: 2px;
+    cursor: pointer;
+}
+
+a:active{
+    color: rgb(110, 10, 10);
+}
+
+a:visited{
+    color: rgb(27, 212, 98);
+}
+
+/* for unvisited */
+a:link{
+    color: chartreuse;
+}
+
+.links ul{
+    list-style-type: none;  /*to remove bulet points*/
+}
+
+.list{
+    list-style-type:circle;
+    /* list-style-image: url(/imageDocument/images.jpg); */ /*instead of buket points image can be placed*/
+    list-style-position: inside;
+
+}
+
+.oi-list{
+    list-style-type: lower-roman;
+    
+}
+
+/* To convert inline element into block element or vice versa */
+.inline{
+    border: 2px solid red;
+    width: 100px;
+    height: 50px;
+    /* display: inline-block; */
+     /* display: inline; */
+      display: block;
+
+}

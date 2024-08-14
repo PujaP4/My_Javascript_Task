@@ -1,0 +1,93 @@
+*{
+    padding: 0px;
+    margin: 0px;box-sizing: border-box;
+}
+
+.outer{
+    background: rgb(77, 123, 118);
+    padding: 10px;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    background: #759eca;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    width: 80%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+::marker{
+    color: chocolate;
+}
+
+h1,h2,h3{
+    color: brown;
+}
+
+b{
+    color: rgb(198, 32, 151);
+}
+
+.image{
+    width: 100%;
+}
+.img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.title{
+    padding:10px;
+}
+.descr{
+    padding:10px;
+}
+.time{
+    background: rgb(238, 208, 213);
+    padding-left: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+.timeTitle{
+    padding: 10px;
+}
+.list{
+    padding-left: 30px;
+    list-style-position:inside;
+}
+.ingradiants{
+    /* padding:10px; */
+}
+.subTitle{
+ padding:10px;
+}
+.nutritionChart{
+    padding:10px;
+}
+.row{
+    padding:10px;
+    /* border-bottom: 2px solid burlywood; */
+}
+
+.clumn{
+    margin:50px;
+    border-bottom: 2px solid burlywood;
+    padding-right: 300Px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    
+}
+/* .clumn{
+    padding-bottom: 10px;
+    border-bottom: 2px solid burlywood;
+    padding-left:0px;
+    margin-left: 0px;
+} */
